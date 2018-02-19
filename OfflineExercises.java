@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 package code;
 
 public class OfflineExercises {
@@ -234,16 +233,8 @@ public class OfflineExercises {
 	*/
 
 	public int bunnyEars(int input) {
-	 ArrayList earArray = new ArrayList<Integer>();
-	 if (input == 0) {
-	  return earArray.get(earArray.size()-1);	 
+	  return 0;	           
 	 }
-	 
-	else {
-	  numEars = numEars + 2;
-	  bunnyEars(input - 1);
-	  return numEars;	           
-	 }
-	}
-
 }
+
+
